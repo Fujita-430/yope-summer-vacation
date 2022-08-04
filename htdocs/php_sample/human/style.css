@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* .test{
+	/* margin-left: 20cm; */
+    /* visibility: hidden;
+	transition-delay: 10s; */
+.num3{
+	display: none;
+    animation: late-open 0.5s ease-in 10s forwards;
+    /* visibility: hidden; */
+}
+
+/* 10秒後に0.5秒かけて"late-open"を実行する */
+.test {
+    /* display: none; */
+    /* animation: late-open 0.5s ease-in 10s forwards; */
+	margin-left: 20cm;
+	/* animation: late-open 0.5s ease-in 10s forwards; */
+	/* visibility: hidden; */
+	transition-delay: 3s
+}
+
+/* late-open = display: block; */
+@keyframes late-open {
+  to {
+    display: block;
+  }
+}
+.random{
+	margin-left:200px;
+	margin-top: 30px;
+	font-size: 300%;
+}
+#result{
+	margin-left: 8cm;
+	margin-top: 7cm;
+	font-size: 200%;
+}
+#startbutton{
+	font-size:400%;
+	margin:300px
+}
+#down{
+	color: blue;
+	font-size: 500%;
+	margin:200px;
+}
+.subtitle{
+	font-size: 300%;
+	font-style: oblique;
+	color: blue;
+	font:"Arial Black"
+}
+*{
+	font:"Arial Black"
+}
+html,body{
+	/* overflow: hidden */
+  }
+
+#randombutton{
+	font-size: 300%;
+}
+/* #fin{
+	position: absolute;
+	margin-bottom: 400px;
+} */
+
+#center{
+	position:absolute;
+	top: 350px;
+	left:650px;
+	transform: translate(-50%,-50%);
+
+}

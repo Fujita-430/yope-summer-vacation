@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>早押しバトル開始です</title>
+  <link rel="stylesheet" href="style.css?15">
+  <script src="wanitter.js?1"></script>
+</head>
+<body>
+ゲームを開始します。
+<div class="num" id="down"></div>
+<script>
+const sec = document.getElementById("down");
+let i = 3;
+const countup = ()=>{
+  sec.innerHTML = i;
+  console.log(i);
+  i--;
+  if(i==-1){
+    window.location.href='http://localhost/php_sample/human/ingame.html';
+  }
+}
+
+setInterval(countup,1000);
+</script>
+<!-- <div class="num2">2...</div>
+<div class="num1">1...</div> -->
+</body>
+</html>
